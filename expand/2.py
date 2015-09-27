@@ -6,6 +6,7 @@
 
 #扩展成在字符串中把特定字符替换成规定字符
 import re
+# 这个函数printReplace()并没有调用呢！
 def printReplace(srcStr,word):
     for letter in srcStr:
         if letter == word:
